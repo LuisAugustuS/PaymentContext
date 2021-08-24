@@ -1,17 +1,75 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
+    "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
+    "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
-        "projectName": "PaymentContext.Tests",
-        "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectName": "PaymentContext.Domain",
+        "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\obj\\",
+        "outputPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectName": "PaymentContext.Shared",
+        "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +86,67 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
+        "projectName": "PaymentContext.Tests",
+        "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
+        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+                "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+              },
+              "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

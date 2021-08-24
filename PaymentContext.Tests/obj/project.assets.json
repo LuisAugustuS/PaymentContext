@@ -1660,6 +1660,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "PaymentContext.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PaymentContext.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PaymentContext.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentContext.Domain.dll": {}
+        }
+      },
+      "PaymentContext.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PaymentContext.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentContext.Shared.dll": {}
+        }
       }
     }
   },
@@ -6103,6 +6126,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "PaymentContext.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PaymentContext.Domain/PaymentContext.Domain.csproj",
+      "msbuildProject": "../PaymentContext.Domain/PaymentContext.Domain.csproj"
+    },
+    "PaymentContext.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PaymentContext.Shared/PaymentContext.Shared.csproj",
+      "msbuildProject": "../PaymentContext.Shared/PaymentContext.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6110,6 +6143,8 @@
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "PaymentContext.Domain >= 1.0.0",
+      "PaymentContext.Shared >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -6119,11 +6154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
       "projectName": "PaymentContext.Tests",
-      "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+      "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\PaymentContext.Tests.csproj",
       "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Tests\\obj\\",
+      "outputPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6139,7 +6174,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+              "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+            },
+            "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\Users\\augus\\Documents\\Modelando_Dominios_Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
