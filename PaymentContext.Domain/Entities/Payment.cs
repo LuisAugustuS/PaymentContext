@@ -20,7 +20,7 @@ namespace PaymentContext.Domain.Entities
         public string Barcode { get; set; }
         public string BoletoNumber { get; set; }
     }
-
+    
     public class CreditCardPayment : Payment
     {
         public string CardHolderName { get; set; }
